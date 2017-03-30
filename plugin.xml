@@ -3,9 +3,10 @@
      xmlns:android="http://schemas.android.com/apk/res/android"
      id="cordova-plugin-jcore"
      version="1.1.1">
-    <name>cordova-plugin-jcore</name>
-    <description>jcore for cordova plugin</description>
-    <author>WilhanTian</author>
+
+    <name>JCore</name>
+    <description>Cordova plugin for jcore</description>
+    <author>WilhanTian, JiGuang</author>
     <keywords>jcore,jpush</keywords>
     <license>MIT License</license>
 
