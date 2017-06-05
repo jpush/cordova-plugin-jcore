@@ -25,7 +25,7 @@
 cordova-plugin-jcore 作为其他极光 Cordova 插件的依赖，在安装其他插件时会自动安装。
 
 ## Support
-- [极光问答社区](http://community.jiguang.cn/)
+<!-- - [极光社区](http://community.jiguang.cn/) -->
 - QQ 交流群：413602425
 
 ## License
