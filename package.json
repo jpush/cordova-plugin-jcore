@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-jcore",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "jcore for cordova plugin",
   "cordova": {
     "id": "cordova-plugin-jcore",
@@ -20,7 +20,7 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "author": "wilhantian, jpush",
+  "author": "wilhantian, jiguang",
   "license": "MIT License",
   "bugs": {
     "url": "https://github.com/jpush/cordova-plugin-jcore/issues"
