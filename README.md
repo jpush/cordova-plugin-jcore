@@ -1,6 +1,6 @@
 # Cordova Plugin JCore
 
-[![release](https://img.shields.io/badge/release-1.1.9-blue.svg)](https://github.com/jpush/jpush-phonegap-plugin/releases)
+[![release](https://img.shields.io/badge/release-1.1.10-blue.svg)](https://github.com/jpush/jpush-phonegap-plugin/releases)
 [![platforms](https://img.shields.io/badge/platforms-iOS%7CAndroid-lightgrey.svg)](https://github.com/jpush/jpush-phonegap-plugin)
 [![weibo](https://img.shields.io/badge/weibo-JPush-blue.svg)](http://weibo.com/jpush?refer_flag=1001030101_&is_all=1)
 
