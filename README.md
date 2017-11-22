@@ -13,6 +13,11 @@
 - 极光统计（JAnalytics）- [cordova-plugn-janalytics](https://github.com/jpush/cordova-plugin-janalytics)
 - 极光短信验证码（JSMS）- [cordova-plugin-jsms](https://github.com/jpush/cordova-plugin-jsms)
 
+**v1.1.10** 对应的 jcore 版本：
+
+- Android: v1.1.7
+- iOS: v1.1.6
+
 ## 什么是 JCore
 
 极光开发者服务 SDK 采用了模块化的使用模式，即一个核心（JCore）+ N 种服务（JPush，JMessage...）的使用方式，方便开发者使用某一项服务或多项服务，极大的优化了多模块同时使用时功能模块重复的问题。如下图：
