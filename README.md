@@ -13,9 +13,9 @@
 - 极光统计（JAnalytics）- [cordova-plugn-janalytics](https://github.com/jpush/cordova-plugin-janalytics)
 - 极光短信验证码（JSMS）- [cordova-plugin-jsms](https://github.com/jpush/cordova-plugin-jsms)
 
-**v1.2.0** 对应的 jcore 版本：
+**v1.2.1** 对应的 jcore 版本：
 
-- Android: v1.1.9
+- Android: v1.2.1
 - iOS: v1.1.6
 
 注意：从 v1.2.0 版本开始支持 cordova-android 7.0.0。
