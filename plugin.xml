@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
      xmlns:android="http://schemas.android.com/apk/res/android"
      id="cordova-plugin-jcore"
-     version="1.2.4">
+     version="1.2.6">
 
     <name>JCore</name>
     <description>Cordova plugin for jcore</description>
@@ -15,18 +15,18 @@
     </engines>
 
     <platform name="android">
-        <resource-file src="src/android/arm64-v8a/libjcore125.so" target="jniLibs/arm64-v8a/libjcore125.so"/>
-        <resource-file src="src/android/armeabi/libjcore125.so" target="jniLibs/armeabi/libjcore125.so"/>
-        <resource-file src="src/android/armeabi-v7a/libjcore125.so" target="jniLibs/armeabi-v7a/libjcore125.so"/>
-        <resource-file src="src/android/mips/libjcore125.so" target="jniLibs/mips/libjcore125.so"/>
-        <resource-file src="src/android/mips64/libjcore125.so" target="jniLibs/mips64/libjcore125.so"/>
-        <resource-file src="src/android/x86/libjcore125.so" target="jniLibs/x86/libjcore125.so"/>
-        <resource-file src="src/android/x86_64/libjcore125.so" target="jniLibs/x86_64/libjcore125.so"/>
+        <resource-file src="src/android/arm64-v8a/libjcore126.so" target="jniLibs/arm64-v8a/libjcore126.so"/>
+        <resource-file src="src/android/armeabi/libjcore126.so" target="jniLibs/armeabi/libjcore126.so"/>
+        <resource-file src="src/android/armeabi-v7a/libjcore126.so" target="jniLibs/armeabi-v7a/libjcore126.so"/>
+        <resource-file src="src/android/mips/libjcore126.so" target="jniLibs/mips/libjcore126.so"/>
+        <resource-file src="src/android/mips64/libjcore126.so" target="jniLibs/mips64/libjcore126.so"/>
+        <resource-file src="src/android/x86/libjcore126.so" target="jniLibs/x86/libjcore126.so"/>
+        <resource-file src="src/android/x86_64/libjcore126.so" target="jniLibs/x86_64/libjcore126.so"/>
 
-        <lib-file src="src/android/jcore-android-1.2.5.jar" />
+        <lib-file src="src/android/jcore-android-1.2.6.jar" />
     </platform>
 
     <platform name="ios">
-        <source-file src="src/ios/jcore-ios-1.2.1.a" framework="true" />
+        <source-file src="src/ios/jcore-ios-1.2.5.a" framework="true" />
     </platform>
 </plugin>
