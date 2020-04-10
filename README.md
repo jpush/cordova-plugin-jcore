@@ -18,6 +18,11 @@
 - Android: v1.2.1
 - iOS: v1.1.6
 
+**v1.3.2** 对应的 jcore 版本：
+
+- Android: v2.3.2
+- iOS: v2.2.4
+
 注意：从 v1.2.0 版本开始支持 cordova-android 7.0.0。
 
 ## 什么是 JCore
