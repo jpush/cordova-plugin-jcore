@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-jcore",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "jcore for cordova plugin",
   "cordova": {
     "id": "cordova-plugin-jcore",
