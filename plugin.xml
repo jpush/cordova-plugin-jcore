@@ -15,15 +15,15 @@
     </engines>
 
     <platform name="android">
-        <resource-file src="src/android/arm64-v8a/libjcore332.so" target="jniLibs/arm64-v8a/libjcore332.so"/>
-        <resource-file src="src/android/armeabi/libjcore332.so" target="jniLibs/armeabi/libjcore332.so"/>
-        <resource-file src="src/android/armeabi-v7a/libjcore332.so" target="jniLibs/armeabi-v7a/libjcore332.so"/>
-        <resource-file src="src/android/mips/libjcore332.so" target="jniLibs/mips/libjcore332.so"/>
-        <resource-file src="src/android/mips64/libjcore332.so" target="jniLibs/mips64/libjcore332.so"/>
-        <resource-file src="src/android/x86/libjcore332.so" target="jniLibs/x86/libjcore332.so"/>
-        <resource-file src="src/android/x86_64/libjcore332.so" target="jniLibs/x86_64/libjcore332.so"/>
+        <resource-file src="src/android/arm64-v8a/libjcore400.so" target="jniLibs/arm64-v8a/libjcore400.so"/>
+        <resource-file src="src/android/armeabi/libjcore400.so" target="jniLibs/armeabi/libjcore400.so"/>
+        <resource-file src="src/android/armeabi-v7a/libjcore400.so" target="jniLibs/armeabi-v7a/libjcore400.so"/>
+        <resource-file src="src/android/mips/libjcore400.so" target="jniLibs/mips/libjcore400.so"/>
+        <resource-file src="src/android/mips64/libjcore400.so" target="jniLibs/mips64/libjcore400.so"/>
+        <resource-file src="src/android/x86/libjcore400.so" target="jniLibs/x86/libjcore400.so"/>
+        <resource-file src="src/android/x86_64/libjcore400.so" target="jniLibs/x86_64/libjcore400.so"/>
 
-        <lib-file src="src/android/jcore-android-3.3.2.jar" />
+        <lib-file src="src/android/jcore-android-4.0.0.jar" />
     </platform>
 
     <platform name="ios">
