@@ -46,41 +46,32 @@ public class JCorePlugin extends CordovaPlugin {
     }
 
     void testCountryCode(JSONArray jsonArray,CallbackContext callbackContext){
-        Log.d(TAG, "testCountryCode jsonArray:" + jsonArray);
 
         try {
            String code = jsonArray.getString(0);
-            Log.d(TAG, "testCountryCode code:" + code);
 
             JCoreInterface.testCountryCode(code);
         }catch (Throwable throwable){
-            Log.d(TAG, "testCountryCode throwable:" + throwable);
 
         }
     }
     void setAuth(JSONArray jsonArray,CallbackContext callbackContext){
-        Log.d(TAG, "setAuth jsonArray:" + jsonArray);
 
         try {
            boolean enable = jsonArray.getBoolean(0);
-            Log.d(TAG, "setAuth enable:" + enable);
 
             JCollectionAuth.setAuth(mContext,enable);
         }catch (Throwable throwable){
-            Log.d(TAG, "setAuth throwable:" + throwable);
 
         }
     }
     void enableAutoWakeup(JSONArray jsonArray,CallbackContext callbackContext){
-        Log.d(TAG, "enableAutoWakeup jsonArray:" + jsonArray);
 
         try {
            boolean enable = jsonArray.getBoolean(0);
-            Log.d(TAG, "enableAutoWakeup enable:" + enable);
 
             JCollectionAuth.enableAutoWakeup(mContext,enable);
         }catch (Throwable throwable){
-            Log.d(TAG, "enableAutoWakeup throwable:" + throwable);
 
         }
     }
