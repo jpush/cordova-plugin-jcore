@@ -5,12 +5,18 @@ exports.coolMethod = function (arg0, success, error) {
 }
 module.exports = {
      testCountryCode: function (code) {
-            exec(null, null, "JCorePlugin", 'testCountryCode', [code]);
+         if(device.platform === "Android"){
+              exec(null, null, "JCorePlugin", 'testCountryCode', [code]);
+            }
         },
         setAuth: function (enable) {
-            exec(null, null, "JCorePlugin", 'setAuth', [enable]);
+            if(device.platform === "Android"){
+              exec(null, null, "JCorePlugin", 'setAuth', [enable]);
+            }
         },
          enableAutoWakeup: function (enable) {
-            exec(null, null, "JCorePlugin", 'enableAutoWakeup', [enable]);
+            if(device.platform === "Android"){
+              exec(null, null, "JCorePlugin", 'enableAutoWakeup', [enable]);
+            }
         }
 }
