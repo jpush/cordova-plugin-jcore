@@ -48,11 +48,9 @@ public class JCorePlugin extends CordovaPlugin {
     void testCountryCode(JSONArray jsonArray,CallbackContext callbackContext){
 
         try {
-           String code = jsonArray.getString(0);
-
-            JCoreInterface.testCountryCode(code);
+            String code = jsonArray.getString(0);
+            JCoreInterface.testCountryCode(mContext,code);
         }catch (Throwable throwable){
-
         }
     }
     void setAuth(JSONArray jsonArray,CallbackContext callbackContext){
