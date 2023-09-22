@@ -36,6 +36,6 @@
     </platform>
 
     <platform name="ios">
-        <source-file src="src/ios/jcore-ios-3.2.5.a" framework="true" />
+        <source-file src="src/ios/jcore-ios-4.4.0.xcframework" framework="true" />
     </platform>
 </plugin>
