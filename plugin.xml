@@ -32,7 +32,7 @@
 <!--        <resource-file src="src/android/x86/libjcore424.so" target="jniLibs/x86/libjcore424.so"/>-->
 <!--        <resource-file src="src/android/x86_64/libjcore424.so" target="jniLibs/x86_64/libjcore424.so"/>-->
 
-        <lib-file src="src/android/jcore-android-4.7.0.jar" />
+        <lib-file src="src/android/jcore-android-4.8.0.jar" />
     </platform>
 
     <platform name="ios">
