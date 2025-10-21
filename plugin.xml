@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
      xmlns:android="http://schemas.android.com/apk/res/android"
      id="cordova-plugin-jcore"
-     version="5.1.0">
+     version="5.2.0">
 
     <name>JCore</name>
     <description>Cordova plugin for jcore</description>
@@ -32,10 +32,10 @@
 <!--        <resource-file src="src/android/x86/libjcore424.so" target="jniLibs/x86/libjcore424.so"/>-->
 <!--        <resource-file src="src/android/x86_64/libjcore424.so" target="jniLibs/x86_64/libjcore424.so"/>-->
 
-        <lib-file src="src/android/jcore-android-5.1.0.jar" />
+        <lib-file src="src/android/jcore-android-5.2.0.jar" />
     </platform>
 
     <platform name="ios">
-        <source-file src="src/ios/jcore-ios-5.1.0.xcframework" framework="true" />
+        <source-file src="src/ios/jcore-ios-5.2.0.xcframework" framework="true" />
     </platform>
 </plugin>
