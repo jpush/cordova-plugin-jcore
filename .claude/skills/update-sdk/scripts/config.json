@@ -1,0 +1,57 @@
+{
+  "plugin_name": "cordova-plugin-jcore",
+  "sdk_type": "jcore",
+  "platform": "cordova",
+  "changelog_urls": {
+    "android": "https://docs.jiguang.cn/jpush/jpush_changelog/updates_Android",
+    "ios": "https://docs.jiguang.cn/jpush/jpush_changelog/updates_iOS"
+  },
+  "version_refs": {
+    "android_sdk": {
+      "integration": "cordova-framework",
+      "files": [
+        {
+          "path": "plugin.xml",
+          "pattern": "<framework src=\"cn.jiguang.sdk:jcore:{VERSION}\""
+        }
+      ]
+    },
+    "ios_sdk": {
+      "integration": "cocoapods-podspec",
+      "files": [
+        {
+          "path": "plugin.xml",
+          "pattern": "<pod name=\"JCore\" spec=\"{VERSION}\""
+        }
+      ]
+    },
+    "plugin": {
+      "files": [
+        {
+          "path": "plugin.xml",
+          "key": "version",
+          "pattern": "id=\"cordova-plugin-jcore\"\n     version=\"{VERSION}\""
+        },
+        {
+          "path": "package.json",
+          "key": "version"
+        }
+      ]
+    }
+  },
+  "native_files": {
+    "android": [
+      "src/android/JCorePlugin.java"
+    ],
+    "ios": []
+  },
+  "bridge_files": {
+    "js": [
+      "www/jcore.js"
+    ]
+  },
+  "changelog_file": "CHANGELOG.md",
+  "publish": {
+    "type": "npm"
+  }
+}
