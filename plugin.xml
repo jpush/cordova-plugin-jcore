@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
      xmlns:android="http://schemas.android.com/apk/res/android"
      id="cordova-plugin-jcore"
-     version="5.3.0">
+     version="5.3.1">
 
     <name>JCore</name>
     <description>Cordova plugin for jcore</description>
@@ -33,14 +33,14 @@
 <!--        <resource-file src="src/android/x86_64/libjcore424.so" target="jniLibs/x86_64/libjcore424.so"/>-->
 
         <!-- 通过 Gradle 从 Maven Central 引用 JCore SDK -->
-        <framework src="cn.jiguang.sdk:jcore:5.3.0" />
+        <framework src="cn.jiguang.sdk:jcore:5.4.0" />
     </platform>
 
     <platform name="ios">
         <!-- 通过 CocoaPods 引用 JCore，无需本地 xcframework（cordova-ios 7.0+ 使用 podspec 标签） -->
         <podspec>
             <pods>
-                <pod name="JCore" spec="5.3.0" />
+                <pod name="JCore" spec="5.4.0" />
             </pods>
         </podspec>
     </platform>
