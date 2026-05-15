@@ -37,12 +37,12 @@ def fetch_changelog(url: str, target_version: str) -> str:
     section_lines = []
 
     for line in lines:
-        # Match headings like: ### JPush Android SDK v6.1.0
-        if re.match(r'^###\s+.*v?' + re.escape(target_version) + r'\b', line):
+        # Match headings like: ## JPush Android SDK v6.1.0
+        if re.match(r'^##\s+.*v?' + re.escape(target_version) + r'\b', line):
             in_section = True
             section_lines.append(line)
         elif in_section:
-            if re.match(r'^###\s+', line):
+            if re.match(r'^##\s+', line):
                 break  # next version section starts
             section_lines.append(line)
 
