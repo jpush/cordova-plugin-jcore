@@ -1,6 +1,6 @@
 # Cordova Plugin JCore
 
-[![release](https://img.shields.io/badge/release-1.2.1-blue.svg)](https://github.com/jpush/jpush-phonegap-plugin/releases)
+[![release](https://img.shields.io/badge/release-5.3.2-blue.svg)](https://github.com/jpush/cordova-plugin-jcore/releases)
 [![platforms](https://img.shields.io/badge/platforms-iOS%7CAndroid-lightgrey.svg)](https://github.com/jpush/jpush-phonegap-plugin)
 [![weibo](https://img.shields.io/badge/weibo-JPush-blue.svg)](http://weibo.com/jpush?refer_flag=1001030101_&is_all=1)
 
@@ -13,15 +13,16 @@
 - 极光统计（JAnalytics）- [cordova-plugn-janalytics](https://github.com/jpush/cordova-plugin-janalytics)
 - 极光短信验证码（JSMS）- [cordova-plugin-jsms](https://github.com/jpush/cordova-plugin-jsms)
 
-**v1.2.1** 对应的 jcore 版本：
+**v5.3.2** 对应的 JCore 版本：
 
-- Android: v1.2.1
-- iOS: v1.1.6
+- Android: v5.5.0
+- iOS: v5.5.0
 
-**v1.3.2** 对应的 jcore 版本：
+历史版本：
 
-- Android: v2.3.2
-- iOS: v2.2.4
+- v5.3.1：Android/iOS JCore v5.4.0
+- v1.3.2：Android JCore v2.3.2，iOS JCore v2.2.4
+- v1.2.1：Android JCore v1.2.1，iOS JCore v1.1.6
 
 注意：从 v1.2.0 版本开始支持 cordova-android 7.0.0。
 
