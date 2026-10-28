@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-jcore",
-  "version": "5.3.2",
+  "version": "5.6.0",
   "description": "jcore for cordova plugin",
   "cordova": {
     "id": "cordova-plugin-jcore",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/jpush/cordova-plugin-jcore/issues"
   },
-  "homepage": "https://github.com/jpush/cordova-plugin-jcore#readme"
+  "homepage": "https://github.com/jpush/cordova-plugin-jcore#readme",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  }
 }

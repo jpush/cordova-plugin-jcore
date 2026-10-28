@@ -44,3 +44,5 @@ cordova-plugin-jcore 作为其他极光 Cordova 插件的依赖，在安装其�
 ## License
 
 MIT © [JiGuang](/license)
+
+本轮候选更新原生SDK：JPush6.3.0/JCore5.6.0；实现不等于发布。配套Core须先独立发布再发布主插件。
