@@ -44,3 +44,5 @@ cordova-plugin-jcore 作为其他极光 Cordova 插件的依赖，在安装其�
 ## License
 
 MIT © [JiGuang](/license)
+
+cordova-plugin-jcore 5.6.0 使用 Android/iOS JCore 5.6.0，配套 jpush-phonegap-plugin 6.3.0。实际部署系统需同时满足所用 Cordova 平台及原生 SDK 的要求。
