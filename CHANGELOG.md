@@ -1,5 +1,5 @@
-## 5.6.0（候选）
-- Android/iOS原生JCore固定升级至5.6.0，现有接口及约束保持；先发布Core再主插件。
+## 5.6.0
+- Android/iOS原生JCore固定升级至5.6.0，保留现有接口及约束，配套jpush-phonegap-plugin 6.3.0。
 
 ## 5.3.2 (2026-07-28)
 
